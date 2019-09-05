@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<body>
-		<h1 test-elem="welcome message">Welcome, <span id="email"></span></h1>
-		<p>This is an even number: <span test-elem="number">42</span></p>
+		<h1 data-test="welcome message">Welcome, <span id="email"></span></h1>
+		<p>This is an even number: <span data-test="number">42</span></p>
 		<script>
 			var params = new URLSearchParams(window.location.search)
 			document.getElementById('email').innerText = params.get('email')
