@@ -4,11 +4,6 @@
 	"license": "MIT",
 	"author": "Mike Petrovich <michael.c.petrovich@gmail.com>",
 	"description": "End-to-end test of cypress-scenario-runner installation and setup",
-	"devDependencies": {
-		"cypress": "^3.4.1",
-		"cypress-cucumber-preprocessor": "^1.16.0"
-	},
-	"main": "index.js",
 	"scripts": {
 		"test": "cypress run",
 		"test:open": "cypress open",
