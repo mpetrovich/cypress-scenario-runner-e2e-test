@@ -1,4 +1,8 @@
 {
 	"fixturesFolder": false,
+	"integrationFolder": "test/features",
+	"supportFile": "test/support.js",
+	"pluginsFile": "test/plugins.js",
+	"screenshotsFolder": "test/screenshots",
 	"video": false
 }
