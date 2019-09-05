@@ -1,0 +1,12 @@
+{
+  "name": "cypress-scenario-runner-e2e-test",
+  "version": "1.0.0",
+  "license": "MIT"
+  "author": "Mike Petrovich <michael.c.petrovich@gmail.com>",
+  "description": "End-to-end test of cypress-scenario-runner installation and setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+  },
+}
