@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1>Welcome, <span test-elem="email"></span></h1>
+		<p>This is an even number: <span test-elem="number">42</span></p>
+		<script>
+			var params = new URLSearchParams(window.location.search)
+			document.querySelector('[test-elem="email"]').innerText = params.get('email')
+		</script>
+	</body>
+</html>
