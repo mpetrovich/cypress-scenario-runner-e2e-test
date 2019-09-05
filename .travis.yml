@@ -17,7 +17,7 @@ cache:
     - ~/.cache
 install:
   - npm ci
-  - npm install cypress-scenario-runner --save-dev
+  - npm install cypress-scenario-runner@beta --save-dev
 script:
   - $(npm bin)/install-cypress-scenario-runner
   - npm run test
