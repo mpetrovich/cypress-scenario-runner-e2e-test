@@ -5,6 +5,7 @@ This repository tests the installation and end-to-end behavior of [cypress-scena
 # Usage
 
 ```sh
-npm install --save-dev cypress cypress-cucumber-preprocessor cypress-scenario-runner && $(npm bin)/install-cypress-scenario-runner
+npm install --save-dev cypress cypress-cucumber-preprocessor cypress-scenario-runner
+$(npm bin)/install-cypress-scenario-runner
 npm run test
 ```
