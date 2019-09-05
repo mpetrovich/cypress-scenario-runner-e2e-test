@@ -1,3 +1,7 @@
 {
+	"fixturesFolder": false,
+	"integrationFolder": "cypress/integration",
+	"pluginsFile": "cypress/plugins/index.js",
+	"supportFile": "cypress/support/index.js",
 	"video": false
 }
