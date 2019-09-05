@@ -10,4 +10,4 @@ And I set "password input" to "password123"
 When I click "login button"
 Then I should be on "home"
 And "welcome message" should be "Welcome, name@example.com"
-And "number" should be even
+And "number" should be an even number
