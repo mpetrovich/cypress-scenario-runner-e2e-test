@@ -8,5 +8,8 @@
 	"scripts": {
 		"test": "cypress run",
 		"test:open": "cypress open"
+	},
+	"devDependencies": {
+		"cypress": "^3.4.1"
 	}
 }
